@@ -1,0 +1,55 @@
+.main {
+  width: 100%;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 0.8rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  height: 24rem;
+  overflow: hidden;
+  background-color: var(--purple);
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2.4rem 3.2rem;
+  gap: 4rem;
+}
+
+.info-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.8rem;
+
+  text-align: center;
+}
+
+.stats-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 3.2rem;
+}
+
+.stats-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
