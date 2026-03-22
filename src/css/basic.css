@@ -1,3 +1,15 @@
+body {
+  width: 100%;
+  font-family: var(--main-font);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: var(--navy);
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -13,7 +25,7 @@
   line-height: 125%;
   letter-spacing: 0.02em;
   font-weight: 600;
-  color: var(--gold-dark);
+  color: var(--white);
 }
 
 .site-link {
@@ -25,11 +37,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--gold-dark);
+  color: var(--purple);
 }
 
 @media screen and (min-width: 48rem) {
   .header {
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 90rem) {
+  body {
+    height: 100vh;
   }
 }
