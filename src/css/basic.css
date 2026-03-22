@@ -39,7 +39,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--purple);
+  color: var(--white);
+
+  padding: 0.8rem 1.2rem;
+  background-color: var(--purple);
+  border-radius: 0.8rem;
+  border: 1px solid var(--purple);
+
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-link  {
+    transition-duration: 50ms;
+  }
 }
 
 /* Tablet */
@@ -47,10 +60,17 @@ body {
 @media screen and (min-width: 48rem) {
   body {
     padding: 9.2rem 10.2rem;
+    gap: 4.6rem;
   }
-  
+
   .header {
     flex-direction: row;
+  }
+
+  .site-link:hover,
+  .site-link:focus {
+    background-color: var(--white);
+    color: var(--purple);
   }
 }
 
@@ -59,5 +79,6 @@ body {
 @media screen and (min-width: 90rem) {
   body {
     height: 100vh;
+    padding: 0;
   }
 }
