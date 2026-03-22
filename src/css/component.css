@@ -42,3 +42,15 @@
   text-transform: uppercase;
   opacity: 0.6;
 }
+
+/* Tablet */
+
+@media screen and (min-width: 48rem) {
+  .main-heading {
+    font-size: 3.6rem;
+  }
+
+  .intro-text {
+    max-width: 37.4rem;
+  }
+}

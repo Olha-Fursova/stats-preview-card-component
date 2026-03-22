@@ -53,3 +53,37 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Tablet */
+
+@media screen and (min-width: 48rem) {
+  .main {
+    max-width: 64rem;
+  }
+
+  .image-container {
+    height: 44.2rem;
+  }
+
+  .info-container {
+    padding: 6.4rem 8rem;
+    align-items: flex-start;
+    gap: 7.2rem;
+  }
+
+  .info-section {
+    align-items: flex-start;
+    text-align: start;
+    gap: 2.4rem;
+  }
+
+  .stats-list {
+    width: fit-content;
+    flex-direction: row;
+    gap: 6.4rem;
+  }
+
+  .stats-element {
+    align-items: flex-start;
+  }
+}
