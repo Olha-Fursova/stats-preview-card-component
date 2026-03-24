@@ -16,7 +16,7 @@ This project is a small statistical card, which consists of two parts: text and 
 ## Overview
 
 ### Screenshot
-![Screenshot](/stats-preview-card-image.png)
+![Screenshot](./public/stats-preview-card-image.png)
 
 ### Main task
 
