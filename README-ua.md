@@ -16,7 +16,7 @@
 ## Огляд
 
 ### Зображення
-![Recipe page](/stats-preview-card-image.png)
+![Screenshot](./public/stats-preview-card-image.png)
 
 ### Опис завдання
 
